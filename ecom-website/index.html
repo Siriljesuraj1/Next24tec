@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Nature - Let Your Skin Glow</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <header class="site-header">
+        <nav class="navbar container">
+            <div class="logo">
+                <a href="#">Beauty+</a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Product</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li>
+                    <button class="cart-details-btn">
+                        <i class="cart-icon">&#128722;</i>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="notification" class="notification">
+        <p>Item added to cart!</p>
+    </div>
+
+   
+    <section id="home" class="hero container">
+        <div class="hero-text">
+            <h1 class="hero-title">Let your skin <span class="highlight">Glow</span> Out.</h1>
+            <p  class="hero-subtitle">We want to bring to the world our products that give you special feeling: joy, healthy, and positive energy.</p>
+            <a href="#products" class=" btn-primary">Shop Now</a>
+        </div>
+        <div class="hero-image">
+            <img src="assets/image1.png" alt="Hero Image">
+        </div>
+    </section>
+
+   
+  
+<section class="clean-products">
+    <div class="container">
+        <div class="clean-products-image">
+            <img src="assets/product1.png" alt="Clean Products">
+        </div>
+        <div class="clean-products-text">
+            <h2>The self care brand that’s setting a new standard in <span class="highlight">Clean products</span>.</h2>
+            <p>Where are products made?</p>
+            <p>Many brands, especially in period care, carry products that take centuries to biodegrade with promises.</p>
+        </div>
+    </div>
+</section>
+
+
+
+    <section class="reinvent container">
+        <h2>Reinvent your <span class="highlight">skin</span> today</h2>
+        <div class="reinvent-grid">
+            <div class="reinvent-item">
+                <img src="assets/skincare.png" alt="skincare">
+                <h3>Skin Care</h3>
+            </div>
+            <div class="reinvent-item">
+                <img src="assets/lipstic.png" alt="lipstic">
+                <h3>Makeup</h3>
+            </div>
+            <div class="reinvent-item">
+                <img src="assets/fragnance.png" alt="fragnance">
+                <h3>Fragrance</h3>
+            </div>
+            <div class="reinvent-item">
+                <img src="assets/hand.png" alt="hand">
+                <h3>Body</h3>
+            </div>
+            <div class="reinvent-item">
+                <img src="assets/serum.png" alt="serum">
+                <h3>Serum</h3>
+            </div>
+            <div class="reinvent-item">
+                <img src="assets/balm.png" alt="balm">
+                <h3>Balms</h3>
+            </div>
+        </div>
+    </section>
+    
+    
+
+   
+<section id="products" class="trending container">
+    <h2>Trending On <span class="highlight">Essentials</span></h2>
+    <div class="products-grid">
+        <div class="product-item">
+            <img src="assets/cart1.png" alt="AMOLI FACE WASHING">
+            <h3>AMOLI FACE WASHING</h3>
+            <p>₹100</p><br>
+            <button class="add-to-cart" data-name="AMOLI FACE WASHING" data-price="100">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="assets/cart2.png" alt="O3+ D-TAN PACK  (50 g)">
+            <h3>O3+ D-TAN PACK  (50 g)</h3>
+            <p>₹830</p><br>
+            <button class="add-to-cart" data-name="O3+ D-TAN PACK  (50 g)" data-price="830">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="assets/cart3.png" alt="OZONE D Tan Facial Cleanser">
+            <h3>OZONE D Tan Facial Cleanser</h3>
+            <p>₹561</p>
+            <button class="add-to-cart" data-name="OZONE D Tan Facial Cleanser" data-price="561">Add to Cart</button>
+        </div>
+        <div class="product-item">
+            <img src="assets/cart4.png" alt="Face Toner">
+            <h3>Face Toner</h3>
+            <p>₹158</p><br>
+            <button class="add-to-cart" data-name="Face Toner" data-price="158">Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+
+<div id="cart" class="cart">
+    <h2>Cart Details</h2>
+    <ul class="cart-items">
+    </ul>
+    <i class="close-cart">&times;</i>
+</div>
+
+
+   
+    <section id="reviews" class="natural-beauty">
+        <div class="container">
+            <h2>We make going all natural <span class="highlight">Beauty</span>.</h2>
+            <p>Made with nature's best ingredients — our products' transparent ingredient list is something you'll love to know.</p>
+            <div class="statistics">
+                <div class="stat-item">
+                    <h3>7M+</h3>
+                    <p>Product Users</p>
+                </div>
+                <div class="stat-item">
+                    <h3>99+</h3>
+                    <p>Brand Products</p>
+                </div>
+                <div class="stat-item">
+                    <h3>5M</h3>
+                    <p>Product Reviews</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="faq container">
+        <h2>You have <span class="highlight">questions</span>, we have answers.</h2>
+        <div class="faq-items">
+            <div class="faq-item">
+                <h3>Where are products made?</h3>
+                <p>Many brands, especially in period care, carry products that take centuries to biodegrade with promises.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How to purchase our product?</h3>
+                <p>We offer a wide range of payment options and fast shipping. Explore our website to find out more.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer id="about">
+        <div class="container">
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank" class="social-icon instagram" aria-label="Instagram"></a>
+                    <a href="https://instagram.com" target="_blank" class="social-icon facebook" aria-label="Facebook"></a>
+                    <a href="https://youtube.com" target="_blank" class="social-icon youtube" aria-label="YouTube"></a>
+                </div>
+            </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
